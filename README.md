@@ -1,10 +1,8 @@
 
 [//]: # (Image References)
 
-[image1]: ./images/sample_dog_output.png "Sample Output Dog"
-[image4]: myapp2/static/sample/mysample.jpg "Sample Output Human"
-[image2]: ./images/vgg16_model.png "VGG-16 Model Layers"
-[image3]: ./images/vgg16_model_draw.png "VGG16 Model Figure"
+[image1]: ./myapp2/static/sample/sample_dog_output.png "Sample Output Dog"
+[image4]: ./myapp2/static/sample/mysample.jpg "Sample Output Human"
 
 
 ## Dog Classification Web App Project
