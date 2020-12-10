@@ -14,6 +14,7 @@ __Dec. 10, 2020 Update__:
 
 
 ![Sample Output][image1]
+![Sample Output][image4]
 
 By utilizing the techniques, including Transfer Learning, building a Convolutional Neural Network(CNN), auto-encoders and object detection, this project will explore the possibilities of CNN models in classification and localization, as well as engineering different models together to yield optimal results in specified tasks and user-experiences.
 
