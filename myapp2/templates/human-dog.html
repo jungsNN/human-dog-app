@@ -1,0 +1,60 @@
+{% extends "base.html" %}
+{% block title %} Human-Dog {% endblock %}
+{% block content %}
+<div class="container" >
+
+ <h1 class="text-center"> Face-Detection + Dog Breed Classifier Using Deep Convolutional Neural Network </h1>
+        <h6 class="text-center">DISCLAIMER: Advocating ethical data distribution and human research, jiai.ai does not intend to use any data obtained on this website for other purposes. All saved and processed images will be deleted immediately.</h6><br>
+
+<div class="flex center" >
+      <h4 class="text center"> Please feed the A.I to find out which dog breed you resemble! </h4><span><i class="far fa-smile-wink"></i></span>
+</div>
+  <div class="flex center" >
+      <h5 class="text center">Examples of appropriate input images include, but not limited to:</h5>
+      </div>
+  <div class="flex center">
+  <ul >
+      <li> <p style="font-size: 11px;">Selfies </p></li>
+      <li> <p style="font-size: 11px; ">your pet </p></li>
+      <li> <p style="font-size: 11px; ">Celebrity </p></li>
+  </ul>
+  </div>
+  <div class="flex center">
+
+      <p class="text-center" ><span style="font-size: 12px; font-weight: bold" class="note">Note:  </span></p>
+      <p ><span style='font-size: 12px;'>The A.I. accepts a single to multiple images. Of course, TOO many inputs will slow down its process significantly.</span></p><br>
+
+</div>
+           <hr>
+           <p>
+               {% with messages = get_flashed_messages() %}
+                    {%  if messages %}
+                        <ul class=flashes>
+                        {%  for message in messages %}
+                            <li> {{ message }}</li>
+                        {% endfor %}
+                        </ul>
+                {% endif %}
+            {% endwith %}
+           </p>
+        <form method="post" action="/human-dog" enctype="multipart/form-data">
+            <dl>
+                <p class="flex center">
+                    <input type="file" name="files[]" multiple="true" autocomplete="off" required>
+                </p>
+            </dl>
+            <p class="flex center">
+                <input type="submit" value="Submit">
+            </p>
+            <div class="flex center">
+            <h6>
+                Results may vary with differences in image quality. Please wait for the A.I. to process once submitted.
+            </h6>
+        </div>
+        </form>
+
+    </form>
+  </div>
+<!--<script src="script.js"></script>-->
+{% endblock %}
+

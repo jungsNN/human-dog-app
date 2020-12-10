@@ -1,0 +1,47 @@
+{% extends "base.html" %}
+{% block title %} Human-Dog {% endblock %}
+{% block content %}
+
+
+  <div class="container" >
+
+ <h1 class="text-center"> Face-Detection + Dog Breed Classifier Using Deep Convolutional Neural Network </h1>
+        <h6 class="text-center">DISCLAIMER: Advocating ethical data distribution and human research, jiai.ai does not intend to use any data obtained on this website for other purposes. All saved and processed images will be deleted immediately.</h6><br>
+<div class="flex center" >
+      <h4 class="text center"> Please feed the A.I to find out which dog breed you resemble! </h4><i class="far fa-smile-wink"></i>
+</div>
+  <div class="flex center" >
+      <h5 class="text center">Examples of appropriate input images include, but not limited to:</h5>
+      </div>
+  <div class="flex center">
+  <ul >
+      <li> <p style="font-size: 11px;">Selfies </p></li>
+      <li> <p style="font-size: 11px; ">your pet </p></li>
+      <li> <p style="font-size: 11px; ">Celebrity </p></li>
+  </ul>
+  </div>
+  <div class="flex center">
+
+      <p class="text-center" ><span style="font-size: 12px; font-weight: bold" class="note">Note:  </span></p>
+      <p ><span style='font-size: 12px;'>The A.I. accepts a single to multiple images. Of course, TOO many inputs will slow down its process significantly.</span></p><br>
+
+</div>
+           <hr>
+ <div>
+
+{%  for i in range(file_len) %}
+    <div class="flex center" >
+    <img src="static/{{ uploaded_imgs[i] }}" alt="{{ uploaded_imgs[i] }}" height=224 width=255></div><br>
+    <p class="flex center" style="font-weight: bold">{{ result[i] }}</p><br>
+ {% endfor %}
+ <form action="" method="post" >
+<a href="/human-dog" class="flex center" type="submit">Go Back</a>
+
+
+
+</form>
+</div>
+    </div>
+<!--<script src="script.js"></script>-->
+
+{% endblock %}
