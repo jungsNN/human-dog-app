@@ -16,9 +16,9 @@ __Dec. 10, 2020 Update__:
 ![Sample Output][image1]
 ![Sample Output][image2]
 
-    Top image is my Chihuahua. My model has never seen the image, and yet, even with the image slightly squished, it matched the breed!
+Left image is my Chihuahua. My model has never seen the image, and yet, even with the image slightly squished, it matched the breed!
     
-    Bottom is me, in which the model detects my face as human and matches my appearance with a dog breed, Lowchen!
+To the right is me, in which the model detects my face as human and matches my appearance with a dog breed, Lowchen!
 
 By utilizing the techniques, including Transfer Learning, building a Convolutional Neural Network(CNN), auto-encoders and object detection, this project will explore the possibilities of CNN models in classification and localization, as well as engineering different models together to yield optimal results in specified tasks and user-experiences.
 
