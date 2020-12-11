@@ -1,7 +1,7 @@
 
 [//]: # (Image References)
 
-[image1]: ./myapp2/static/sample/chihuahua_output.jpg "Sample Output Dog"
+[image1]: ./myapp2/static/sample/chihuahua_output2.jpg "Sample Output Dog"
 [image2]: ./myapp2/static/sample/mysample.jpg "Sample Output Human"
 
 
@@ -16,7 +16,7 @@ __Dec. 10, 2020 Update__:
 ![Sample Output][image1]
 ![Sample Output][image2]
 
-Left image is my Chihuahua. My model has never seen the image, and yet, even with the image slightly squished, it matched the breed!
+Left image is my Chihuahua. My model has never seen the image, and yet, it matched the breed!
     
 To the right is me, in which the model detects my face as human and matches my appearance with a dog breed, Lowchen!
 
