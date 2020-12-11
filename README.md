@@ -23,6 +23,7 @@ To the right is me, in which the model detects my face as human and matches my a
 By utilizing the techniques, including Transfer Learning, building a Convolutional Neural Network(CNN), auto-encoders and object detection, this project will explore the possibilities of CNN models in classification and localization, as well as engineering different models together to yield optimal results in specified tasks and user-experiences.
 
 ![Sample Output Dog 2][image3]
+
 Here is a little cute puppy I met in S. Korea. How cute!
 
 ## References
