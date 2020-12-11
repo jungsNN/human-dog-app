@@ -11,7 +11,7 @@ Goal is to build a pipeline that can be used within a web or mobile app to proce
 
 __Dec. 10, 2020 Update__:
 * The app is deployed and available for user inputs. Please feel free to try the app via https://jiae.ai
-
+* Next step: present the actual dog image that is detected.
 
 ![Sample Output][image1]
 ![Sample Output][image2]
