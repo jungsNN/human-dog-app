@@ -1,7 +1,7 @@
 
 [//]: # (Image References)
 
-[image1]: ./myapp2/static/sample/Chihuahua_03464.jpg "Sample Output Dog"
+[image1]: ./myapp2/static/sample/chihuahua_output.jpg "Sample Output Dog"
 [image2]: ./myapp2/static/sample/mysample.jpg "Sample Output Human"
 
 
